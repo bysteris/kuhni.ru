@@ -526,11 +526,29 @@
         width: 100%;
     }
 
-    section.advantages {
-        padding: 70px 0;
-    }
-
     .thanks__container h1 {
         font-size: 32px;
+    }
+
+    .modal-content.catalog {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .modal-content.catalog .modal-close svg>path {
+        fill: #FFF;
+    }
+
+    .modal-content .left img {
+        height: 350px;
+    }
+
+    .modal-content .right .characteristic-items .item {
+        padding: 10px 15px;
+    }
+
+    .modal-content .right .characteristic-items .item>span {
+        font-size: calc(12px + (14 - 12) * ((100vw - 320px) / (900 - 320)));
     }
 }

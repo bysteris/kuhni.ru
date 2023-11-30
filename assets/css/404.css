@@ -1,0 +1,356 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Medium.eot);
+    src: local('HelveticaNeueCyr-Medium'),
+        url(/assets/fonts/HelveticaNeueCyr-Medium.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Medium.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Heavy.eot);
+    src: local('HelveticaNeueCyr-Heavy'),
+        url(/assets/fonts/HelveticaNeueCyr-Heavy.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Heavy.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Heavy.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-HeavyItalic.eot);
+    src: local('HelveticaNeueCyr-HeavyItalic'),
+        url(/assets/fonts/HelveticaNeueCyr-HeavyItalic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-HeavyItalic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-HeavyItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Black.eot);
+    src: local('HelveticaNeueCyr-Black'),
+        url(/assets/fonts/HelveticaNeueCyr-Black.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Black.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-UltraLightItalic.eot);
+    src: local('HelveticaNeueCyr-UltraLightItalic'),
+        url(/assets/fonts/HelveticaNeueCyr-UltraLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-UltraLightItalic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-UltraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-BlackItalic.eot);
+    src: local('HelveticaNeueCyr-BlackItalic'),
+        url(/assets/fonts/HelveticaNeueCyr-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-BlackItalic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-ThinItalic.eot);
+    src: local('HelveticaNeueCyr-ThinItalic'),
+        url(/assets/fonts/HelveticaNeueCyr-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-ThinItalic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-MediumItalic.eot);
+    src: local('HelveticaNeueCyr-MediumItalic'),
+        url(/assets/fonts/HelveticaNeueCyr-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-MediumItalic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-LightItalic.eot);
+    src: local('HelveticaNeueCyr-LightItalic'),
+        url(/assets/fonts/HelveticaNeueCyr-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-LightItalic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-UltraLight.eot);
+    src: local('HelveticaNeueCyr-UltraLight'),
+        url(/assets/fonts/HelveticaNeueCyr-UltraLight.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-UltraLight.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-UltraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-BoldItalic.eot);
+    src: local('HelveticaNeueCyr-BoldItalic'),
+        url(/assets/fonts/HelveticaNeueCyr-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-BoldItalic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Italic.eot);
+    src: local('HelveticaNeueCyr-Italic'),
+        url(/assets/fonts/HelveticaNeueCyr-Italic.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Italic.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Italic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Roman.eot);
+    src: local('HelveticaNeueCyr-Roman'),
+        url(/assets/fonts/HelveticaNeueCyr-Roman.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Roman.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Roman.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Bold.eot);
+    src: local('HelveticaNeueCyr-Bold'),
+        url(/assets/fonts/HelveticaNeueCyr-Bold.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Bold.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Light.eot);
+    src: local('HelveticaNeueCyr-Light'),
+        url(/assets/fonts/HelveticaNeueCyr-Light.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Light.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url(/assets/fonts/HelveticaNeueCyr-Thin.eot);
+    src: local('HelveticaNeueCyr-Thin'),
+        url(/assets/fonts/HelveticaNeueCyr-Thin.eot?#iefix) format('embedded-opentype'),
+        url(/assets/fonts/HelveticaNeueCyr-Thin.woff) format('woff'),
+        url(/assets/fonts/HelveticaNeueCyr-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFC700;
+    border-radius: 10px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: HelveticaNeueCyr;
+    font-size: calc(16px + (20 - 16) * ((100vw - 900px) / (1920 - 900)));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    color: #FFF;
+    background-color: #151315;
+}
+
+h2,
+h3 {
+    margin: 0;
+}
+
+.wrapper {
+    padding: 0 calc(40px + (370 - 40) * ((100vw - 900px) / (1920 - 900)));
+}
+
+header {
+    padding: 50px 0;
+    width: 100%;
+}
+
+header .logo img {
+    width: 100%;
+    max-width: 120px;
+}
+
+.notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.notfound__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: calc(30px + (70 - 30) * ((100vw - 900px) / (1920 - 900)));
+    padding: 70px 0;
+}
+
+.notfound__container .left {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    width: 50%;
+}
+
+.notfound__container .left h1 {
+    font-size: calc(26px + (34 - 26) * ((100vw - 900px) / (1920 - 900)));
+    font-weight: 700;
+}
+
+.notfound__container .left p {
+    font-size: calc(16px + (20 - 16) * ((100vw - 900px) / (1920 - 900)));
+    font-weight: 550;
+}
+
+.notfound__container .left img {
+    width: 100%;
+}
+
+.notfound__container .left .notfound-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: calc(12px + (20 - 12) * ((100vw - 900px) / (1920 - 900))) calc(24px + (38 - 24) * ((100vw - 900px) / (1920 - 900)));
+    border-radius: 50px;
+    background: #FFC700;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.notfound__container .right {
+    width: 50%;
+}
+
+.notfound__container .right img {
+    width: 100%;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+
+@media (max-width: 901px) {
+    body {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        padding: 0 40px;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    header {
+        padding: 60px 0;
+    }
+
+    header .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .logo img {
+        max-width: 120px;
+    }
+
+    .notfound__container {
+        flex-direction: column;
+    }
+
+    .notfound__container .left {
+        width: 100%;
+        align-items: center;
+    }
+
+    .notfound__container .left h1 {
+        text-align: center;
+        font-size: calc(30px + (34 - 30) * ((100vw - 320px) / (900 - 320)));
+    }
+
+    .notfound__container .left p {
+        text-align: center;
+        font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (900 - 320)));
+    }
+
+    .notfound__container .left .notfound-btn {
+        padding: 15px 26px;
+        font-size: 16px;
+    }
+
+    .notfound__container .left img.mobile {
+        margin-left: -40px;
+        margin-right: -40px;
+        width: 110vw;
+    }
+
+    .notfound__container .right {
+        position: relative;
+        width: 100%;
+    }
+
+    .notfound__container .right img {}
+}

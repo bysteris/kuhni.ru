@@ -1952,24 +1952,6 @@ footer {
     }
 }
 
-
-.advantages {
-    background-color: #FFF;
-}
-
-section.advantages {
-    margin: 0;
-    padding: calc(70px + (100 - 70) * ((100vw - 900px) / (1920 - 900))) 0;
-}
-
-.advantages .section-title {
-    color: #151315;
-}
-
-.advantages_items .item p {
-    color: #151315;
-}
-
 .thanks {
     display: flex;
     justify-content: center;
@@ -2011,4 +1993,60 @@ section.advantages {
 .thanks_btn:focus {
     background: #151315;
     color: #F4C300;
+}
+
+
+
+
+
+.modal-content.catalog {
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    width: 100%;
+    grid-gap: 20px;
+    padding: calc(30px + (50 - 30) * ((100vw - 900px) / (1920 - 900))) calc(20px + (40 - 20) * ((100vw - 900px) / (1920 - 900)));
+}
+
+.modal-content .left {
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content .left img {
+    max-height: 485px;
+    border-radius: 10px;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.modal-content .right .characteristic-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content .right .characteristic-items .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: calc(6px + (12 - 6) * ((100vw - 900px) / (1920 - 900))) calc(10px + (20 - 10) * ((100vw - 900px) / (1920 - 900)));
+    border-radius: 5px;
+    width: 100%;
+}
+
+.modal-content .right .characteristic-items .item:nth-child(2n+1) {
+    background: #EDEDED;
+}
+
+.modal-content .right .characteristic-items .item>span {
+    color: #000;
+    font-size: calc(12px + (14 - 12) * ((100vw - 900px) / (1920 - 900)));
+    font-weight: 550;
+    width: 40%;
+}
+
+.modal-content .right .characteristic-items .item>span:last-child {
+    font-weight: 700;
+    text-align: right;
+    width: 60%;
 }

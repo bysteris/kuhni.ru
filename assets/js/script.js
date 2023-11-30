@@ -51,10 +51,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    // Open/Close modal
+    // Open/Close modal callback
     let modalOpen = document.querySelectorAll('.modal-open'),
         modal = document.querySelector('.modal'),
-        modalClose = document.querySelector('.modal-close');
+        modalClose = document.querySelector('#modal .modal-close');
 
     modalOpen.forEach(element => {
         element.addEventListener('click', () => modal.classList.toggle("active"));
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     modalClose.addEventListener('click', () => {
         modal.classList.remove("active");
-    })
+    });
 
 
     // Sending maodl-form
@@ -135,4 +135,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Mask phone
     $("input[name=tel]").mask("+7 (999) 999-99-99");
+
+
+    (() => {
+        const modalBtns = Array.from(document.querySelectorAll(".catalog-items .item"));
+        modalBtns.forEach(btn => {
+            btn.onclick = function () {
+                const modal = btn.getAttribute('data-modal');
+                console.log(modal);
+                document.getElementById(modal).classList.add('active');
+            }
+        });
+
+        const closeBtns = Array.from(document.querySelectorAll(".modal-close"));
+        closeBtns.forEach(btn => {
+            btn.onclick = function () {
+                let modal = btn.closest('.modal');
+                modal.classList.remove('active');
+            }
+        });
+    })();
 });
